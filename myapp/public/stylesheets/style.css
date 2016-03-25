@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,400italic,700,300italic,300);
+.fixed {
+    top: 10px;
+    position: fixed;
+    width: 75%;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
+    z-index: 1;
+}
+.Roboto_Condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alizarin {
+    color: #e74c3c;
+}
+.btn-alizarian {
+    background: #e74c3c;
+}
+.container .btn {
+    width: 100%;
+    border-radius: 0;
+    border: none
+}
+.peter_river {
+    color: #3498db;
+}
+.btn-peter_river {
+    background: #3498db;
+}
+.pos_P {
+    padding: 2em 1em;
+}
+.pos {
+    margin: 0 -2em -2em -2em;
+}
+.wifix {
+    width: 100vw;
+    height: 100vh;
+}
+.credit {
+    color: white;
+    position: fixed;
+    left: 10px;
+    bottom: -3px;
+    font-size: 8px;
+}
+.container {
+    background: #ffffff;
+}
+.container_ping {
+    background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #3498db 50%, #2980b9 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 50%,#3498db 50%,#2980b9 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#3498db 50%,#2980b9 100%);
+}
+.container_pong {
+    background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 50%, #e74c3c 50%, #c0392b 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 50%,#e74c3c 50%,#c0392b 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 50%,#e74c3c 50%,#c0392b 100%);
+}
+.content {
+    width: 340px;
+    background-color: #FFF;
+    background-position: center center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding: 2em;
+}

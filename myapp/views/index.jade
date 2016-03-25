@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    .context.center-block
+        .container.wifix.parent.container_pong
+            .row
+                .col-md-12
+                    .content.center-block.text-center
+                        h1.alizarin.bold Ping
+                            span.peter_river.l.luc Pong
+                        p.pos_P Welcome to Ping Pong. Ping Pong is a blunt way to talk to strangers. It's like a walkie-talkie with only Ping or Pong. You're talking to 
+                            span.connectCounter ? strangers.
+                        .Ping_Pong.pos
+                            button.btn.btn-danger.btn-lg.Roboto_Condensed.btn-alizarin.hide(type="button", onclick="init.EMIT();") Ping
+                            button.btn.btn-primary.btn-lg.Roboto_Condensed.btn-peter_river(type="button", onclick="init.EMET();") Pong
+                            button.btn.btn-warning.btn-lg.Roboto_Condensed.btn-orange.hide(type="button") Reconnecting...
+                    .credit
+                        p &copy; Created by Lachlan Edwards, Edward Cox and Michael Gurney at the Queensland University of Technology.
+
+    
+    script(src="https://code.jquery.com/jquery-2.2.2.min.js", integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=", crossorigin="anonymous")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js", integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", crossorigin="anonymous")
+    script(src="https://cdn.socket.io/socket.io-1.4.5.js")
+    script(src="/javascripts/frontUtility.js")
